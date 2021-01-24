@@ -230,16 +230,16 @@ body {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.description-item.plate::before {
+.description-item.icon-plate::before {
   background-image: url('../images/description/description-1.png');
 }
-.description-item.clock::before {
+.description-item.icon-clock::before {
   background-image: url('../images/description/description-2.png');
 }
-.description-item.computer::before {
+.description-item.icon-computer::before {
   background-image: url('../images/description/description-3.png');
 }
-.description-item.cosmonaut::before {
+.description-item.icon-cosmonaut::before {
   background-image: url('../images/description/description-4.png');
 }
 .description-item:not(:last-child) {
