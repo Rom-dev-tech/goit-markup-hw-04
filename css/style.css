@@ -231,16 +231,16 @@ body {
   margin-bottom: 30px;
 }
 .description-item.icon-plate::before {
-  background-image: url('../images/description/description-1.png');
+  background-image: url('../images/description/description-1.svg');
 }
 .description-item.icon-clock::before {
-  background-image: url('../images/description/description-2.png');
+  background-image: url('../images/description/description-2.svg');
 }
 .description-item.icon-computer::before {
-  background-image: url('../images/description/description-3.png');
+  background-image: url('../images/description/description-3.svg');
 }
 .description-item.icon-cosmonaut::before {
-  background-image: url('../images/description/description-4.png');
+  background-image: url('../images/description/description-4.svg');
 }
 .description-item:not(:last-child) {
   margin-right: 30px;
