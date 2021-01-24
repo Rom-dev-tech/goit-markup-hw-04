@@ -124,6 +124,8 @@ body {
   margin-right: 50px;
 }
 .nav-link {
+  display: inline-flex;
+  align-items: center;
   padding: 32px 0;
 
   font-weight: 500;
@@ -140,6 +142,20 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: Var(--accent-text-color);
+}
+.nav-link.contact::before {
+  content: '';
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-image: url('../images/header/icon-email.svg');
+}
+.nav-link.contact.phone::before {
+  content: '';
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  background-image: url('../images/header/icon-phone.svg');
 }
 .site-contacts {
   display: flex;
