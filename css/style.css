@@ -382,8 +382,37 @@ body {
 .footer-link:focus {
   color: var(--accent-text-color);
 }
+.footer-social-icon {
+  fill: var(--white-text-color);
+}
+.footer .social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer .social-link:hover,
+.footer .social-link:focus {
+  background-color: var(--accent-text-color);
+}
 .withe {
   color: var(--white-text-color);
+}
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-social-icon {
+  fill: var(--white-text-color);
+}
+.join-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+.first-column {
+  margin-right: 70px;
 }
 /* =======END FOOTER======= */
 
