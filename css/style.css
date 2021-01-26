@@ -141,25 +141,20 @@ body {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: Var(--accent-text-color);
+  color: var(--accent-text-color);
 }
-.nav-link.contact::before {
-  content: '';
-  width: 16px;
-  height: 12px;
+.icon-mail,
+.icon-phone {
   margin-right: 10px;
-  background-image: url('../images/header/icon-email.svg');
-}
-.nav-link.contact.phone::before {
-  content: '';
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  background-image: url('../images/header/icon-phone.svg');
+  fill: currentColor;
 }
 .site-contacts {
   display: flex;
   margin-left: auto;
+}
+.nav-contacns {
+  display: inline-flex;
+  align-items: center;
 }
 .nav-contacns:not(:last-child) {
   margin-right: 50px;
@@ -236,27 +231,13 @@ body {
   display: flex;
   align-items: center;
 }
-.description-item::before {
-  content: '';
-  display: block;
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
+.icon-container {
+  background-color: var(--bgc-team-color);
   border-radius: 4px;
+  text-align: center;
   margin-bottom: 30px;
-}
-.description-item.icon-plate::before {
-  background-image: url('../images/description/description-1.svg');
-}
-.description-item.icon-clock::before {
-  background-image: url('../images/description/description-2.svg');
-}
-.description-item.icon-computer::before {
-  background-image: url('../images/description/description-3.svg');
-}
-.description-item.icon-cosmonaut::before {
-  background-image: url('../images/description/description-4.svg');
+  padding: 25px 100px;
+  height: 120px;
 }
 .description-item:not(:last-child) {
   margin-right: 30px;
@@ -315,8 +296,34 @@ body {
   text-align: center;
 }
 .team-cards-description {
-  padding: 30px 30px;
+  padding: 30px 30px 16px 30px;
 }
+.social-list {
+  display: flex;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sociak-container-links {
+  padding: 0 25px 30px 25px;
+}
+.social-item {
+  margin-right: 10px;
+}
+.social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-text-color);
+  fill: #fff;
+}
+
 /* =======END TEAM======= */
 
 /* =======FOOTER======= */
