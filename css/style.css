@@ -106,6 +106,8 @@ body {
 
   margin-right: 93px;
   padding: 25px 0px;
+
+  outline: none;
 }
 /* =======END LOGO======= */
 
@@ -143,6 +145,7 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-text-color);
+  outline: none;
 }
 .icon-mail,
 .icon-phone {
@@ -392,6 +395,7 @@ body {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-text-color);
+  outline: none;
 }
 .footer .social-link {
   background-color: rgba(255, 255, 255, 0.1);
@@ -399,6 +403,7 @@ body {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-text-color);
+  outline: none;
 }
 
 .footer .container {
