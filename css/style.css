@@ -231,14 +231,16 @@ body {
 }
 .description-list {
   display: flex;
-  align-items: center;
 }
 .icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-color: var(--bgc-team-color);
+
   border-radius: 4px;
-  text-align: center;
   margin-bottom: 30px;
-  padding: 25px 100px;
   height: 120px;
 }
 .description-item:not(:last-child) {
