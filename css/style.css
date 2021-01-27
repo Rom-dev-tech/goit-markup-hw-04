@@ -369,9 +369,6 @@ body {
 /* =======END REGULAR CLIENTS======= */
 
 /* =======FOOTER======= */
-.withe {
-  color: var(--white-text-color);
-}
 .footer {
   background-color: var(--bgc-hero-color);
 
@@ -424,6 +421,9 @@ body {
 }
 .first-column {
   margin-right: 70px;
+}
+.withe {
+  color: var(--white-text-color);
 }
 /* =======END FOOTER======= */
 
