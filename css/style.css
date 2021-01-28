@@ -91,8 +91,31 @@ body {
   overflow: hidden;
 }
 
-.border-portfolio {
-  outline: 1px solid #ececec;
+/* Social links (TEAM and FOOTER) */
+.social-list {
+  display: flex;
+}
+.social-item {
+  width: 44px;
+  height: 44px;
+}
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  fill: var(--icon-color);
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-text-color);
+  fill: var(--white-text-color);
 }
 /* =======END COMPONENTS======= */
 
@@ -306,32 +329,6 @@ body {
 .team-cards-description {
   padding: 30px 32px 30px 32px;
 }
-.social-list {
-  display: flex;
-}
-.social-item {
-  width: 44px;
-  height: 44px;
-}
-.social-item:not(:last-child) {
-  margin-right: 10px;
-}
-.social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  fill: var(--icon-color);
-}
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--accent-text-color);
-  fill: var(--white-text-color);
-}
-
 /* =======END TEAM======= */
 
 /* =======REGULAR CLIENTS======= */
@@ -419,6 +416,10 @@ body {
 /* =======END FOOTER======= */
 
 /* =======PORTFOLIO======= */
+.border-portfolio {
+  outline: 1px solid #ececec;
+}
+
 .portfolio-list {
   display: flex;
   align-items: center;
